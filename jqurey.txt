@@ -1,19 +1,20 @@
-					Jquery
+潘康婊子你爸爸来了
+Jquery
 
-alert($("form input").size());//�ҵ�form���������е�input
+alert($("form input").size());//找到form表单中所有的input
 
-document.write($("#div1 > *").html());//��ȡdiv1�е�һ����Ԫ��
+document.write($("#div1 > *").html());//获取div1中第一个子元素
 
-document.write($("#div1 > *").text());//��ȡdiv1����Ԫ�������е��ı�
+document.write($("#div1 > *").text());//获取div1中子元素中所有的文本
 
-alert($("#div3 + p").html());// ����#div3�е�ͬ��Ԫ���е���һ��p��ǩ
+alert($("#div3 + p").html());// 查找#div3中的同级元素中的下一个p标签
 
-alert($("#div2 ~ div").html());//����#div2ͬ���µ�����div��ǩ
+alert($("#div2 ~ div").html());//查找#div2同级下的所有div标签
 
-if($("#div").length>0){}//�ж϶���div�Ƿ����
+if($("#div").length>0){}//判断对象div是否存在
 					
 if($("#div").get(0)){}
 					
-if($("#div")[0]){} //Ҳ�ǰ�jQuery����ת����ԭ������
+if($("#div")[0]){} //也是把jQuery对象转换成原生对象
 					
 alert($("div")[1].innerHTML);
